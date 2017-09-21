@@ -6,6 +6,6 @@
  */
 
 exports.helloHttp = function helloHttp (req, res) {
-  res.send(`Hello ${req.body.name || 'everyone'}! We are testing now the auto-deployer! :-) \n`);
+  res.send(`Hello ${req.body.name || 'everyone'}! We are testing now the auto-deployer! \n`);
 };
 
