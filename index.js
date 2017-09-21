@@ -5,6 +5,7 @@
  * @param {Object} res Cloud Function response context.
  */
 
-exports.helloHttp = function helloHttp (req, res) {
-  res.send(`Hello ${req.body.name || 'everyone'}!:-) \n`);
+exports.autodeployerDemo = function autodeployerDemo (req, res) {
+  res.send(`Hello ${req.body.name || 'everyone'}! Welcome to the auto-deployer demo! :-) \n`);
 };
+
