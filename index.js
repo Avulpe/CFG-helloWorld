@@ -6,6 +6,6 @@
  */
 
 exports.helloHttp = function helloHttp (req, res) {
-  res.send(`Hello ${req.body.name || 'everyone'}! This deploy is made from branch! :-) \n`);
+  res.send(`Hello ${req.body.name || 'everyone'}! We are testing now the auto-deployer! :-) \n`);
 };
 
