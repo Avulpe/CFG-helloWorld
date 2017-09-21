@@ -6,6 +6,6 @@
  */
 
 exports.helloHttp = function helloHttp (req, res) {
-  res.send(`Hello ${req.body.name || 'everyone'}! Welcome to deploy from tag demo! :-) \n`);
+  res.send(`Hello ${req.body.name || 'everyone'}! Deploy from commit demo! :-) \n`);
 };
 
